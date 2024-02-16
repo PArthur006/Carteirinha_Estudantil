@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to right, #0E8B9A, #0E8E9B, #05D9B6 ,#03E4BA);
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+
+
+header > h2 > a{
+    font-size: 20px;
+    color: white;
+}
+
+main{
+    text-align: center;
+}
+
+main > picture > img{
+    max-width: 200px;
+    height: auto;
+    margin: 20px;
+}
+
+main > h2{
+    font-size: 20px;
+    font-weight: 550;
+    text-align: left;
+    background-color: rgba(175, 175, 175, 0.322);
+    margin: 20px;
+    padding: 20px;
+}
+
+main > h4{
+    display: inline-block;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+main > .sexo{
+    margin-left: 40px;
+}
+
+main > p{
+    display: inline-block;
+    text-align: left;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+article{
+    text-align: right;
+    margin: 20px 30%;
+}
+
+article > h4{
+    background-color: #03E4BA;
+    text-align: center;
+    padding: 10px;
+
+}
+
+article > h4 > a{
+    color: #07525a;
+    text-decoration-color: white;
+}
+
+footer{
+    color: rgba(255, 255, 255, 0.856);
+    background-color: #168A99;
+    text-align: center;
+    padding: 50px 10px;
+    margin: 50px 0px 0px;
+}
+
+footer > p{
+    font-size: small;
+    color: white;
+    padding: 5px;
+}
